@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" metadata-complete="false" id="WebApp_ID" version="3.0">
+  <display-name>com.rhl.auxilium</display-name>
+<!--   <servlet>
+  	<description>
+  	</description>
+  	<display-name>EdytujGabinet</display-name>
+  	<servlet-name>EdytujGabinet</servlet-name>
+  	<servlet-class>com.rhl.auxilium.servlets.EdytujGabinet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>GabinetUsun</display-name>
+  	<servlet-name>GabinetUsun</servlet-name>
+  	<servlet-class>com.rhl.auxilium.servlets.GabinetUsun</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>GabinetDodaj</display-name>
+  	<servlet-name>GabinetDodaj</servlet-name>
+  	<servlet-class>com.rhl.auxilium.servlets.GabinetDodaj</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>GoHome</display-name>
+  	<servlet-name>GoHome</servlet-name>
+  	<servlet-class>com.rhl.auxilium.servlets.GoHome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EdytujGabinet</servlet-name>
+  	<url-pattern>/EdytujGabinet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GabinetUsun</servlet-name>
+  	<url-pattern>/GabinetUsun</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GabinetDodaj</servlet-name>
+  	<url-pattern>/GabinetDodaj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GoHome</servlet-name>
+  	<url-pattern>/GoHome</url-pattern>
+  </servlet-mapping> -->
+  <welcome-file-list>
+    <welcome-file>logowanie.jsp</welcome-file>
+  </welcome-file-list>
+
+<!--servlet>
+  	<servlet-name>PokazKartotekePacjentow</servlet-name>
+  	<servlet-class>com.rhl.auxilium.servlets.HelloKartotekaPacjentow</servlet-class>
+  	<load-on-startup>1</load-on-startup>
+ </servlet>
+  <servlet-mapping>
+  	<servlet-name>PokazKartotekePacjentow</servlet-name>
+  	<url-pattern>/*</url-pattern>
+  </servlet-mapping-->
+<!--   <servlet>
+  	<description>
+  	</description>
+  	<display-name>Wyloguj</display-name>
+  	<servlet-name>Wyloguj2</servlet-name>
+  	<servlet-class>com.rhl.auxilium.servlets.Wyloguj</servlet-class>
+  </servlet>
+    <servlet-mapping>
+  	<servlet-name>Wyloguj2</servlet-name>
+  	<url-pattern>/Wyloguj.do</url-pattern>
+  </servlet-mapping> -->
+  
+</web-app>

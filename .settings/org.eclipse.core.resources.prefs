@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/webapp/edycjaGabinetow-content.jsp=UTF-8
+encoding//src/main/webapp/edycjaUzytkownikow-content.jsp=UTF-8
+encoding//src/main/webapp/edycjaWizyty-Administrator-etap1-content.jsp=UTF-8
+encoding//src/main/webapp/edycjaWizyty-Administrator-etap2-content.jsp=UTF-8
+encoding//src/main/webapp/logowanie-content.jsp=UTF-8
+encoding//src/main/webapp/logowanie.jsp=UTF-8
+encoding//src/main/webapp/panelAdministratora-content.jsp=UTF-8
+encoding//src/main/webapp/panelPacjenta-content.jsp=UTF-8
+encoding//src/main/webapp/templates/template.jsp=UTF-8
+encoding//src/main/webapp/wyswietlGabinety-content.jsp=UTF-8
+encoding//src/main/webapp/wyswietlWyszukiwaneGabinety-content.jsp=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8

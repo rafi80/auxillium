@@ -1,0 +1,245 @@
+html {
+    background: #ffffff;
+}
+
+body {
+    width: 85%;
+    margin: 1% auto;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size:small;
+    color: #666;
+    background: #FFFFFF;
+    padding: 8px;
+    -webkit-border-radius:1px;
+   -webkit-border: 1px   #808080;
+    box-shadow: 0px 2px 7px #808080;
+    zoom: 95%;
+}
+
+
+#naglowek
+{
+	position: relative;
+    text-align: left, bottom;
+    color: #00007F;
+    border-bottom: solid 3px #00007F;
+    padding-bottom: 10px;
+}
+
+#naglowek-content { 
+ 				position: absolute; bottom: 0; left: 0; 
+  				font-size: 130%;
+  				}
+
+#logo {
+	margin: 5px auto;
+	text-align: right;
+}
+
+
+#zawartosc {
+   padding-top: 20px;
+   
+}
+
+    #zawartosc a, a:active, a:visited {
+        color: #666;
+    }
+
+        #zawartosc a:hover {
+            color: #000000;
+        }
+
+h1,h2 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.auxilium {
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top:20px;
+    max-width: 750px;
+    background: #ffffff;
+    padding: 20px 20px 20px 20px;
+ }
+ 
+.auxilium h1 {
+    font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 20px;
+    display: block;
+    background: #ffffff;
+    border-bottom: 1px solid #B8DDFF;
+    margin: -20px -20px 15px;
+}
+
+.auxilium h2 {
+    font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 20px;
+    display: block;
+    background: #ffffff;
+    margin: -20px -20px 15px;
+}
+
+.auxilium div {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+}
+
+.auxilium h1>span {
+    display: block;
+    font-size: 100%;
+}
+
+.auxilium label {
+    display: inline;
+    margin: 0px 0px 5px;
+}
+
+.auxilium .listHeader {
+    display: inline;
+    margin: 0px 0px 5px;
+    color: #66C1E4;
+}
+
+.auxilium label.przycisk {
+    max-width: 750px;
+}
+
+.auxilium label>span {
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+.auxilium input[type="text"], .auxilium input[type="password"], .auxilium input[type="email"],  .auxilium textarea, .auxilium select {
+    color: #666;
+    padding: 0px 0px 0px 5px;
+    margin: 2px 6px 2px 0px;
+    border: 1px solid #C5E2FF;
+    background: #ffffff;
+    outline: 0;
+    -webkit-box-shadow:inset 0px 1px 6px #ECF3F5;
+    box-shadow: inset 0px 1px 6px #ECF3F5;
+    font-size: 100%;
+    width: 30%;
+    height: 26px;
+    line-height:26px;
+    vertical-align: middle;
+    text-align: left; 
+}
+
+.auxilium input[type="checkbox"] {
+	 vertical-align:middle; 
+	 width:20px;
+	 height:20px;	 
+}
+
+.auxilium td>input[type="text"]{
+	width: 100%;
+}
+
+.auxilium textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+
+.auxilium select {
+    background: #fbfbfb url('../images/down-arrow.png') no-repeat right;
+    /* background-position: 102% 60%;  */
+    appearance:menu;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: auto;
+    vertical-align: top;
+}
+
+.auxilium .button{
+    padding: 10px 30px 10px 30px;
+    background: #66C1E4;
+    border: none;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #4C6E91;
+    -webkit-box-shadow: 1px 1px 1px #4C6E91;
+    -moz-box-shadow: 1px 1px 1px #4C6E91;
+    text-shadow: 1px 1px 1px #5079A3;
+}
+
+.auxilium .prawyPrzycisk {
+    padding: 10px 30px 10px 30px;
+    background: #66C1E4;
+    border: none;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #4C6E91;
+    -webkit-box-shadow: 1px 1px 1px #4C6E91;
+    -moz-box-shadow: 1px 1px 1px #4C6E91;
+    text-shadow: 1px 1px 1px #5079A3;
+	float:right;
+	height: 40px;      
+}
+
+.auxilium .lewyPrzycisk {
+    padding: 10px 30px 10px 30px;
+    background: #66C1E4;
+    border: none;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #4C6E91;
+    -webkit-box-shadow: 1px 1px 1px #4C6E91;
+    -moz-box-shadow: 1px 1px 1px #4C6E91;
+    text-shadow: 1px 1px 1px #5079A3;
+	float:left;
+	height: 40px;      
+}
+
+.auxilium .bigButton{
+    width:320px;
+    height:200px;
+    padding: 10px 30px 10px 30px;
+    background: #66C1E4;
+    border: none;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #4C6E91;
+    -webkit-box-shadow: 1px 1px 1px #4C6E91;
+    -moz-box-shadow: 1px 1px 1px #4C6E91;
+    text-shadow: 1px 1px 1px #5079A3;
+    font-size:medium;
+}
+
+.auxilium .button:hover, .bigButton:hover{
+    background: #7ACC52;
+}
+
+td, th {
+    text-align: left;
+    padding-right: 15px;
+}
+
+th {
+	border-bottom: 1px solid #66C1E4;
+}
+
+tr {
+	 max-width: 750px;
+	 height: 26px;
+}
+
+small {
+	font-size: 75%;
+}
+.error {
+	color: red;	
+}
+
+footer, .wyloguj {
+	 float: right; 
+	 padding: 9px 0px 0px 0px;
+}

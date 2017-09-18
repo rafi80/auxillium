@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="EntititesAuxilium" transaction-type="RESOURCE_LOCAL">
+	
+		<!-- provider>org.hibernate.ejb.HibernatePersistance</provider> -->
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<class>com.rhl.auxilium.entitites.Gabinet</class>
+		<class>com.rhl.auxilium.entitites.OpisWizyty</class>
+		<class>com.rhl.auxilium.entitites.Uzytkownik</class>
+		<class>com.rhl.auxilium.entitites.Wizyta</class>
+		<class>com.rhl.auxilium.entitites.BlokCzasu</class>
+		<class>com.rhl.auxilium.entitites.Specjalizacja</class>
+		<class>com.rhl.auxilium.entitites.TypPracownika</class>
+		<properties>
+			<!-- User / Password -->	
+	   	   <property name="hibernate.connection.username" value="root"/>
+		   <property name="hibernate.connection.password" value="doscdobre"/>
+		   
+		   <!-- Database Settings -->
+	   	   <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+		   <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+		   <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/auxilium_dev"/>
+		   <property name="hibernate.current_session_context_class" value="thread"/>
+		   
+		   <!-- properties -->
+		   <property name="show_sql" value="true"/>
+		
+		   <!-- List of XML mapping files -->
+		   <!-- <mapping resource="hibernate/mapping/contacts.hbm.xml"/> 
+		   <mapping class="com.rafa.myhibernate.firstHibernate.entities.Contact" /> -->
+		</properties>
+	</persistence-unit>
+</persistence>
